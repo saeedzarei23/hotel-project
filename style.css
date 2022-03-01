@@ -5,6 +5,8 @@
     list-style: none;
     text-decoration: none;
     color: inherit;
+    box-sizing: border-box;
+    font-family:  Montserrat;
 }
 /* header css */
 body{
@@ -13,8 +15,8 @@ body{
     /* background-size: cover;  */
 }
 .container{
-    /* max-width: 1200px; */
-    /* margin: 0 auto; */
+    max-width: 1200px;
+    margin: 0 auto;
 
 }
 header{
@@ -36,3 +38,51 @@ header{
 nav ul li {
     /* display: inline-flex; */
 /* } */
+}
+
+
+/* footer  css style start */
+footer{
+    color: #b3b3b3;
+    background: #2d2d2d;
+    padding: 20px;
+    border-top: 1px solid #b3b3b3;
+    font-size: 13px;
+
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+footer .left-colm a{
+    color: #cb9734;
+}
+footer .left-colm a:hover{
+    text-decoration: underline;
+
+}
+footer .middle-colm  ul {
+    display: inline-flex;
+    align-items: center;
+    margin: 20px auto;
+}
+
+footer .middle-colm li{
+    padding:0 10px;
+    border-left: 1px solid #4d4c4c;
+}
+footer .middle-colm li:first-of-type{
+    border: none;
+}
+footer .middle-colm a:hover{
+   color: #fff;
+
+footer .right-colm ul{
+    display: inline-flex;
+}
+
+footer .right-colm a {
+    padding: 5px;
+}
