@@ -38,6 +38,90 @@ nav ul li {
   /* display: inline-flex; */
   /* } */
 }
+/* hotel about / explanation css style start */
+.row4 {
+  background-image: url("img/5.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.row4 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5% 0;
+  color: #4d4c4c;
+}
+.row4 .about-top-col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.row4 .about-praghraph{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: flex-start;
+}
+.row4 .about-praghraph p {
+  font-size: 15px;
+  text-align: center;
+  width: 52%;
+  margin: 15px 0;
+}
+.row4 .about-headline{
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start
+}
+.row4 .about-headline img {
+  width: 130px;
+  margin: 15px;
+}
+.row4 .about-headline h4{
+  font-size:26px;
+  font-weight: 100;
+}
+.row4 .about-headline h3{
+  font:85px 'Times New Roman', serif;
+  font-weight: 700;
+  color: #cb9734;
+}
+.row4 .hotel-option {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+}
+.row4 .hotel-option img {
+  width:30px;
+}
+.row4 .option-right {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+.row4 .option-left {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+.row4 .starbox{
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.row4 .starbox p {
+  font-size: 14px;
+  line-height: 38px;
+}
+/* hotel about / explanation css style end */
+
 /* newsletter & useful links css style start */
 .row15 {
   background-image: url("img/35.jpg");
