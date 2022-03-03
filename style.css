@@ -53,15 +53,15 @@ nav ul li {
   padding: 5% 0;
   color: #4d4c4c;
 }
-.row4 .about-top-col{
+.row4 .about-top-col {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-.row4 .about-praghraph{
+.row4 .about-praghraph {
   display: flex;
   flex-direction: column;
-  align-items:flex-start;
+  align-items: flex-start;
   justify-content: flex-start;
 }
 .row4 .about-praghraph p {
@@ -70,23 +70,23 @@ nav ul li {
   width: 52%;
   margin: 15px 0;
 }
-.row4 .about-headline{
+.row4 .about-headline {
   margin: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start
+  justify-content: flex-start;
 }
 .row4 .about-headline img {
   width: 130px;
   margin: 15px;
 }
-.row4 .about-headline h4{
-  font-size:26px;
+.row4 .about-headline h4 {
+  font-size: 26px;
   font-weight: 100;
 }
-.row4 .about-headline h3{
-  font:85px 'Times New Roman', serif;
+.row4 .about-headline h3 {
+  font: 85px "Times New Roman", serif;
   font-weight: 700;
   color: #cb9734;
 }
@@ -97,7 +97,7 @@ nav ul li {
   width: 450px;
 }
 .row4 .hotel-option img {
-  width:30px;
+  width: 30px;
 }
 .row4 .option-right {
   display: inline-flex;
@@ -111,7 +111,7 @@ nav ul li {
   flex-wrap: nowrap;
   justify-content: flex-start;
 }
-.row4 .starbox{
+.row4 .starbox {
   display: inline-flex;
   align-items: center;
   justify-content: flex-start;
@@ -121,6 +121,106 @@ nav ul li {
   line-height: 38px;
 }
 /* hotel about / explanation css style end */
+
+/* Special offers css style start */
+.row10 {
+  background-image: url("img/28.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding:5% 0;
+}
+.row10 * {
+  text-align: center;
+}
+.row10 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #b3b3b3;
+}
+.row10 h4 {
+  font: 50px "Times New Roman", serif;
+  color: #ffdc7d;
+}
+.row10 h5{
+  color: rgba(255, 255, 255, 0.897);
+  font:19px "Times New Roman", serif;
+}
+.row10 .offer-box {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 8%;
+}
+.row10 .offer-coulmen {
+  position: relative;
+}
+.row10 .room-pernight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: #282828;
+  border-radius: 50%;
+  z-index: 5;
+  position: absolute;
+  top: -50px;
+  left: 75px;
+}
+.row10 .room-pernight span:first-of-type{
+  color: #ffdc7d;
+  font-size: 18px;
+}
+.row10 .room-pernight span{
+  font-size: 11px;
+}
+.row10 .room-class {
+  background-image: url("img/22.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.row10 .room-class h6 {
+  font-size: 20px;
+  color: #ffdc7d;
+  font-weight: 100;
+  padding: 60px 35px;
+}
+.row10 .room-option {
+  background-color: #282828;
+}
+.row10 .room-option span {
+  display: inline-block;
+  font-size: 11px;
+  width: 255px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.row10 .room-option:nth-last-of-type(3), .row10 .room-option:nth-last-of-type(5){
+  background-color: #161616;
+}
+.row10 .room-book {
+  background-color: #161616;
+  width: 255px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row10 .room-book a {
+  border: 1px solid #cb9734;
+  color: #cb9734;
+  padding: 12px 16px;
+}
+.row10 .room-book a:hover {
+  color: #000;
+  background-color: #cb9734;
+}
+/* Special offers css style end */
 
 /* newsletter & useful links css style start */
 .row15 {
@@ -219,21 +319,21 @@ nav ul li {
   color: #ffdc7d;
 }
 .row15 .cloumn .footer-img {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .row15 .cloumn .footer-img img {
-    width: 80px;
-    height: 80px;
-    border: 1px solid #ffffff70;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #ffffff70;
 }
 .row15 .cloumn .footer-img a:hover {
-    background-color: #cb973475;
-    width: 80px;
-    height: 80px;
-    z-index: 3;
+  background-color: #cb973475;
+  width: 80px;
+  height: 80px;
+  z-index: 3;
 }
 
 /* newsletter & useful links css style end */
