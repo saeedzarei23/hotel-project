@@ -8,36 +8,71 @@
   box-sizing: border-box;
   font-family: Montserrat;
 }
-/* header css */
-body {
-  /* background-image: url(img/1-1.jpg); */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover;  */
-}
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
-header {
-  /* color: #fff; */
+/* header css style start */
+header{
+  background-image: url(img/1-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.top-header {
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: space-between; */
-  /* background: rgba(255, 255, 255, 0.1); */
-  /* backdrop-filter: blur (10px); */
-  /* -webkit-backdrop-filter: blur(10px); */
+header .top-header {
+  background-color: #000000b0;
+  
+  font-size: 11px;
+  border-bottom: 1px solid #cb96346e;
 }
-.bouttom-header {
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: space-between; */
+header .top-header a {
+  padding: 5px 10px;
 }
-nav ul li {
-  /* display: inline-flex; */
-  /* } */
+header .top-header a:hover {
+  color: #fff;
 }
+header .top-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #b3b3b3;
+}
+header .phonenumber-social-link {
+  display: inline-flex;
+  align-items: center;
+  font-size: 13px;
+}
+header .social-links {
+  padding: 10px;
+  display: inline-flex;
+  border-left: 1px solid #cb96346e;
+  border-right: 1px solid #cb96346e;
+}
+header .social-links a {
+  padding: 5px;
+}
+header .bottom-header {
+  background: transparent;
+}
+ header .bottom-header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .bottom-header a {
+  padding:10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+header .bottom-header a:hover {
+  color: #cb9734;
+}
+ header nav ul li {
+  display: inline-flex;
+}
+/* header css style send */
+
 /* hotel about / explanation css style start */
 .row4 {
   background-image: url("img/5.jpg");
