@@ -13,17 +13,17 @@
   margin: 0 auto;
 }
 /* header css style start */
-header{
+header {
   background-image: url(img/1-1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 header .top-header {
-  background-color: #000000b0;
-  
+  background-color: #0000008a;
+
   font-size: 11px;
-  border-bottom: 1px solid #cb96346e;
+  border-bottom: 1px solid #cb963427;
 }
 header .top-header a {
   padding: 5px 10px;
@@ -45,8 +45,8 @@ header .phonenumber-social-link {
 header .social-links {
   padding: 10px;
   display: inline-flex;
-  border-left: 1px solid #cb96346e;
-  border-right: 1px solid #cb96346e;
+  border-left: 1px solid #cb963427;
+  border-right: 1px solid #cb963427;
 }
 header .social-links a {
   padding: 5px;
@@ -54,13 +54,13 @@ header .social-links a {
 header .bottom-header {
   background: transparent;
 }
- header .bottom-header .container{
+header .bottom-header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 header .bottom-header a {
-  padding:10px;
+  padding: 10px;
   font-size: 14px;
   font-weight: bold;
   color: #fff;
@@ -68,9 +68,44 @@ header .bottom-header a {
 header .bottom-header a:hover {
   color: #cb9734;
 }
- header nav ul li {
+header nav ul li {
   display: inline-flex;
+  position: relative;
+  margin: 20px auto;
 }
+/* header sub menu */
+header nav ul li ul {
+  display: flex;
+  flex-direction: column;
+  background-color: #282828;
+  position: absolute;
+  left: 0;
+  top: 130%;
+  visibility: hidden;
+  opacity: 0;
+  transition-delay: 0.15s;
+  transition-property: all ;
+  transition-duration: 0.3s;
+  transition-timing-function:ease-out ;
+}
+header nav ul li ul li {
+  width: 200px;
+  padding: 5px 10px;
+  border: 1px solid #cb963427;
+  font-size: 12px;
+  margin: 0;
+}
+header nav li ul a {
+  min-width: max-content;
+}
+header nav ul li:hover ul  {
+  visibility: visible;
+  opacity: 1;
+}
+header nav ul li ul li:hover{
+  background-color: #161616;
+}
+
 /* header css style send */
 
 /* hotel about / explanation css style start */
@@ -164,7 +199,7 @@ header .bottom-header a:hover {
   background-position: center;
   background-size: cover;
   width: 100%;
-  padding:5% 0;
+  padding: 5% 0;
 }
 .row10 * {
   text-align: center;
@@ -179,9 +214,9 @@ header .bottom-header a:hover {
   font: 50px "Times New Roman", serif;
   color: #ffdc7d;
 }
-.row10 h5{
+.row10 h5 {
   color: rgba(255, 255, 255, 0.897);
-  font:19px "Times New Roman", serif;
+  font: 19px "Times New Roman", serif;
 }
 .row10 .offer-box {
   display: flex;
@@ -205,11 +240,11 @@ header .bottom-header a:hover {
   top: -50px;
   left: 75px;
 }
-.row10 .room-pernight span:first-of-type{
+.row10 .room-pernight span:first-of-type {
   color: #ffdc7d;
   font-size: 18px;
 }
-.row10 .room-pernight span{
+.row10 .room-pernight span {
   font-size: 11px;
 }
 .row10 .room-class {
@@ -235,7 +270,8 @@ header .bottom-header a:hover {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-.row10 .room-option:nth-last-of-type(3), .row10 .room-option:nth-last-of-type(5){
+.row10 .room-option:nth-last-of-type(3),
+.row10 .room-option:nth-last-of-type(5) {
   background-color: #161616;
 }
 .row10 .room-book {
