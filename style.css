@@ -485,7 +485,7 @@ header  #reservation a:hover{
   flex-direction: column;
   justify-content: center;
   padding: 5% 0;
-  color: #4d4c4c;
+  color: #161616;
 }
 .row4 .about-top-col {
   display: flex;
@@ -499,9 +499,9 @@ header  #reservation a:hover{
   justify-content: flex-start;
 }
 .row4 .about-praghraph p {
-  font-size: 15px;
+  font-size: 14px;
   text-align: center;
-  width: 52%;
+  width: 50%;
   margin: 15px 0;
 }
 .row4 .about-headline {
@@ -576,7 +576,7 @@ header  #reservation a:hover{
 }
 .row10 h4 {
   font: 50px "Playfair Display", serif;
-  color: #ffdc7d;
+  color: #e2c285;
 }
 .row10 h5 {
   color: rgba(255, 255, 255, 0.897);
@@ -602,10 +602,10 @@ header  #reservation a:hover{
   z-index: 5;
   position: absolute;
   top: -50px;
-  left: 75px;
+  left: 100px;
 }
 .row10 .room-pernight span:first-of-type {
-  color: #ffdc7d;
+  color: #e2c285;
   font-size: 18px;
 }
 .row10 .room-pernight span {
@@ -619,20 +619,20 @@ header  #reservation a:hover{
   width: 100%;
 }
 .row10 .room-class h6 {
-  font-size: 20px;
-  color: #ffdc7d;
+  font-size: 30px;
+  color: #e2c285;
   font-weight: 100;
-  padding: 60px 35px;
+  padding: 21% 2%;
 }
 .row10 .room-option {
   background-color: #282828;
 }
 .row10 .room-option span {
   display: inline-block;
-  font-size: 11px;
-  width: 255px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  font-size: 13px;
+  width:300px;
+  padding: 35px 0;
+
 }
 .row10 .room-option:nth-last-of-type(3),
 .row10 .room-option:nth-last-of-type(5) {
@@ -640,7 +640,7 @@ header  #reservation a:hover{
 }
 .row10 .room-book {
   background-color: #161616;
-  width: 255px;
+  width: 300px;
   height: 100px;
   display: flex;
   align-items: center;
