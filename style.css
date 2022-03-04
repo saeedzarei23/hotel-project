@@ -19,11 +19,11 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
-header .top-header {
+header .top-header { /*  Top header css style */
   background-color: #0000008a;
 
   font-size: 11px;
-  border-bottom: 1px solid #cb963427;
+  border-bottom: 1px solid #e2c18550;
 }
 header .top-header a {
   padding: 5px 10px;
@@ -45,13 +45,13 @@ header .phonenumber-social-link {
 header .social-links {
   padding: 10px;
   display: inline-flex;
-  border-left: 1px solid #cb963427;
-  border-right: 1px solid #cb963427;
+  border-left: 1px solid #e2c18550;
+  border-right: 1px solid #e2c18550;
 }
 header .social-links a {
   padding: 5px;
 }
-header .bottom-header {
+header .bottom-header { /* bottom  header css style  */
   background: transparent;
 }
 header .bottom-header .container {
@@ -105,6 +105,65 @@ header nav ul li:hover ul  {
 header nav ul li ul li:hover{
   background-color: #161616;
 }
+header .row1 .container {  /* row1 css style start */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}  
+header .hotel-name  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5%;
+}
+header .hotel-name h1 {
+  font:  bold 110px "Times New Roman", serif;
+}
+header .hotel-name h2 {
+  font: 60px "Times New Roman", serif;
+}
+header .hotel-booking{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5%;
+  margin-bottom: 15%;
+}
+header .booking-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #e2c18550;
+  background-color: #0000008a;
+  width: 250px;
+  height: 100px;
+  padding: 20px;
+}
+header .booking-info input{
+  background: transparent;
+  outline: none;
+  border: none;
+  color: #E2C285;
+  font: 30px "Times New Roman", serif;
+}
+header  #reservation a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: max-content;
+  width: 250px;
+  height: 100px;
+  color: #000;
+  background-color: #E2C285;
+  font-weight: bold;
+  font-size: 14px;
+}
+header  #reservation a:hover{
+  color: #E2C285;
+  background-color: #000;
+}
+
 
 /* header css style send */
 
