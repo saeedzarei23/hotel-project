@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,900;1,100;1,200;1,300;1,400;1,500;1,900&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,900;1,100;1,200;1,300;1,400;1,500;1,900&family=Roboto:wght@100&display=swap");
 /* whole page css*/
 
 * {
@@ -8,7 +8,7 @@
   text-decoration: none;
   color: inherit;
   box-sizing: border-box;
-  font-family: "Playfair Display";
+  font-family: Montserrat ;
 }
 /* header css */
 .container {
@@ -29,6 +29,7 @@
   font-size: 30px;
   font-weight: 100;
   letter-spacing: 0.9px;
+  font-family: "Playfair Display";
 }
 .hotel-info p {
   color: #b1aca3;
@@ -133,10 +134,12 @@
   color: #ffffff;
   font-size: 36px;
 }
+.row7 p {
+  font-family: "Playfair Display";
+}
 .row7 .property{
   display: inline-flex;
   align-items: center;
-;
 }
 .property-box1{
   background-image: url(img/19.jpg);
@@ -195,12 +198,14 @@
   font-size: 36px;
   font-weight: 200;
   text-align: center;
+  font-family: "Playfair Display";
 }
 .online-booking-headline h2 {
   color: #e2c285;
   font-size: 80px;
   text-align: center;
   line-height: 90px;
+  font-family: "Playfair Display";
 }
 .online-booking-headline img:last-of-type {
   position: relative;
@@ -245,6 +250,7 @@ align-items: center;
   font-size: 50px;
   font-weight: 400;
   text-align: center;
+  font-family: "Playfair Display";
 }
 .guest-headline h5{
   font-weight: 400;
@@ -417,10 +423,10 @@ header .hotel-name  {
   margin: 5%;
 }
 header .hotel-name h1 {
-  font:  bold 110px "Times New Roman", serif;
+  font:  bold 110px "Playfair Display", serif;
 }
 header .hotel-name h2 {
-  font: 60px "Times New Roman", serif;
+  font: 60px "Playfair Display", serif;
 }
 header .hotel-booking{
   display: flex;
@@ -444,7 +450,7 @@ header .booking-info input{
   outline: none;
   border: none;
   color: #E2C285;
-  font: 30px "Times New Roman", serif;
+  font: 30px "Playfair Display", serif;
 }
 header  #reservation a{
   display: flex;
@@ -514,7 +520,7 @@ header  #reservation a:hover{
   font-weight: 100;
 }
 .row4 .about-headline h3 {
-  font: 85px "Times New Roman", serif;
+  font: 85px "Playfair Display", serif;
   font-weight: 700;
   color: #cb9734;
 }
@@ -569,12 +575,12 @@ header  #reservation a:hover{
   color: #b3b3b3;
 }
 .row10 h4 {
-  font: 50px "Times New Roman", serif;
+  font: 50px "Playfair Display", serif;
   color: #ffdc7d;
 }
 .row10 h5 {
   color: rgba(255, 255, 255, 0.897);
-  font: 19px "Times New Roman", serif;
+  font: 19px "Playfair Display", serif;
 }
 .row10 .offer-box {
   display: flex;
