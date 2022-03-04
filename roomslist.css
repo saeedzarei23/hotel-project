@@ -1,376 +1,424 @@
 /* whole page css*/
 * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    color: inherit;
-    box-sizing: border-box;
-    font-family: Montserrat;
-  }
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  /* header css style start */
-  header {
-    background-image: url(img/1.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  header .top-header { /*  Top header css style */
-    background-color: #0000008a;
-  
-    font-size: 11px;
-    border-bottom: 1px solid #e2c18550;
-  }
-  header .top-header a {
-    padding: 5px 10px;
-  }
-  header .top-header a:hover {
-    color: #fff;
-  }
-  header .top-header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #b3b3b3;
-  }
-  header .phonenumber-social-link {
-    display: inline-flex;
-    align-items: center;
-    font-size: 13px;
-  }
-  header .social-links {
-    padding: 10px;
-    display: inline-flex;
-    border-left: 1px solid #e2c18550;
-    border-right: 1px solid #e2c18550;
-  }
-  header .social-links a {
-    padding: 5px;
-  }
-  header .bottom-header { /* bottom  header css style  */
-    background: transparent;
-  }
-  header .bottom-header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  header .bottom-header a {
-    padding: 10px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #fff;
-  }
-  header .bottom-header a:hover {
-    color: #cb9734;
-  }
-  header nav ul li {
-    display: inline-flex;
-    position: relative;
-    margin: 20px auto;
-  }
-  /* header sub menu */
-  header nav ul li ul {
-    display: flex;
-    flex-direction: column;
-    background-color: #282828;
-    position: absolute;
-    left: 0;
-    top: 130%;
-    visibility: hidden;
-    opacity: 0;
-    transition-delay: 0.15s;
-    transition-property: all ;
-    transition-duration: 0.3s;
-    transition-timing-function:ease-out ;
-  }
-  header nav ul li ul li {
-    width: 200px;
-    padding: 5px 10px;
-    border: 1px solid #cb963427;
-    font-size: 12px;
-    margin: 0;
-  }
-  header nav li ul a {
-    min-width: max-content;
-  }
-  header nav ul li:hover ul  {
-    visibility: visible;
-    opacity: 1;
-  }
-  header nav ul li ul li:hover{
-    background-color: #161616;
-  }
-  header .row1 .container {  /* row1 css style start */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #fff;
-  }  
-  header .hotel-name  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 5%;
-  }
-
-  header .hotel-name h2 {
-    font:bold 110px "Playfair Display", serif;
-  }
-
-  header .links-thread  {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-  }
-  header .links-thread i {
-      padding: 15px;
-  }
- 
-  header .links-thread a:last-of-type {
-    color: #cb9734;
-    border-bottom: 3px solid #cb9634;
-    padding: 15px 0;
-    
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+  box-sizing: border-box;
+  font-family: Montserrat;
 }
-  header .links-thread a:hover{
-    color: #cb9734;
-  }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* header css style start */
+header {
+  background-image: url(img/1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .top-header {
+  /*  Top header css style */
+  background-color: #0000008a;
 
-  /* header css style end */
+  font-size: 11px;
+  border-bottom: 1px solid #e2c18550;
+}
+header .top-header a {
+  padding: 5px 10px;
+}
+header .top-header a:hover {
+  color: #fff;
+}
+header .top-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #b3b3b3;
+}
+header .phonenumber-social-link {
+  display: inline-flex;
+  align-items: center;
+  font-size: 13px;
+}
+header .social-links {
+  padding: 10px;
+  display: inline-flex;
+  border-left: 1px solid #e2c18550;
+  border-right: 1px solid #e2c18550;
+}
+header .social-links a {
+  padding: 5px;
+}
+header .bottom-header {
+  /* bottom  header css style  */
+  background: transparent;
+}
+header .bottom-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .bottom-header a {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+header .bottom-header a:hover {
+  color: #cb9734;
+}
+header nav ul li {
+  display: inline-flex;
+  position: relative;
+  margin: 20px auto;
+}
+/* header sub menu */
+header nav ul li ul {
+  display: flex;
+  flex-direction: column;
+  background-color: #282828;
+  position: absolute;
+  left: 0;
+  top: 130%;
+  visibility: hidden;
+  opacity: 0;
+  transition-delay: 0.15s;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+header nav ul li ul li {
+  width: 200px;
+  padding: 5px 10px;
+  border: 1px solid #cb963427;
+  font-size: 12px;
+  margin: 0;
+}
+header nav li ul a {
+  min-width: max-content;
+}
+header nav ul li:hover ul {
+  visibility: visible;
+  opacity: 1;
+}
+header nav ul li ul li:hover {
+  background-color: #161616;
+}
+header .row1 .container {
+  /* row1 css style start */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+header .hotel-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5%;
+}
+
+header .hotel-name h2 {
+  font: bold 110px "Playfair Display", serif;
+}
+
+header .links-thread {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+header .links-thread i {
+  padding: 15px;
+}
+
+header .links-thread a:last-of-type {
+  color: #cb9734;
+  border-bottom: 3px solid #cb9634;
+  padding: 15px 0;
+}
+header .links-thread a:hover {
+  color: #cb9734;
+}
+
+/* header css style end */
 /* main content css style end */
 #main-content {
-    background-image: url('/img/p2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url('img/client\ background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* main content css style end */
 
-  /* booking css style end */
- .row2 .hotel-booking{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10%;
-  }
- .row2 .booking-info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #fff;
-    width: 250px;
-    height: 150px;
-    padding: 20px;
-  }
-  .row2 .booking-info input{
-    background: transparent;
-    outline: none;
-    border: none;
-    color: #000;
-    font: 30px "Playfair Display", serif;
-  }
-  .row2  #reservation a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: max-content;
-    width: 250px;
-    height: 150px;
-    color: #fff;
-    background-color: #cb9734;
-    font-weight: bold;
-    font-size: 14px;
-  }
- .row2  #reservation a:hover{
-    background-color: #b89556;
-  }
-  /* booking css style end */
-  /* newsletter & useful links css style start */
-  .row6 {
-    background-image: url("img/35.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: #b3b3b3;
-    font-size: 14px;
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
-  .row6 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .footer-logo img {
-    width: 200px;
-    margin-bottom: 20px;
-  }
-  .row6 .cloumn {
-    flex: 1;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-items: flex-start;
-  }
-  .row6 .cloumn h3 {
-    display: inline-flex;
-    align-items: baseline;
-    margin-bottom: 20px;
-    font-size: 20px;
-    color: #fff;
-  }
-  
-  .row6 .cloumn .arrow-shape {
-    width: 0;
-    height: 0;
-    border-left: 4px solid #cb9734;
-    border-bottom: 4px solid #cb9734;
-    border-top: 4px solid transparent;
-    border-right: 4px solid transparent;
-    margin-left: 8px;
-  }
-  .row6 .useful-links a {
-    display: inline-block;
-    width: 250px;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #4d4c4c;
-  }
-  .row6 .useful-links li::before {
-    content: "• ";
-    color: #cb9734;
-    font-size: 25px;
-    border: none;
-  }
-  .row6 .useful-links li:last-of-type {
-    border: none;
-  }
-  .row6 .useful-links a:hover {
-    color: #ffdc7d;
-  }
-  .row6 .newletter-input {
-    display: inline-flex;
-    align-items: center;
-    margin: 35px;
-    margin-left: 0;
-    border: 1px solid #4d4c4c;
-    background-color: #4d4c4c;
-  }
-  .row6 .newletter-input input {
-    padding: 10px 0px 10px 5px;
-    border: none;
-    outline: none;
-    width: 83%;
-    background-color: #000;
-  }
-  .row6 .newletter-input a {
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 17%;
-    height: 100%;
-    color: #000;
-  }
-  .row6 .newletter-input a:hover {
-    color: #fff;
-    background-color: #cb9734;
-  }
-  .row6 .cloumn span {
-    font-size: 12px;
-  }
-  .row6 .cloumn span > span {
-    color: #ffdc7d;
-  }
-  .row6 .cloumn .footer-img {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-  .row6 .cloumn .footer-img img {
-    width: 80px;
-    height: 80px;
-    border: 1px solid #ffffff70;
-  }
-  .row6 .cloumn .footer-img a:hover {
-    background-color: #cb973475;
-    width: 80px;
-    height: 80px;
-    z-index: 3;
-  }
-  
-  /* newsletter & useful links css style end */
-  
-  /* footer  css style start */
-  footer {
-    color: #b3b3b3;
-    background: #000;
-    padding: 20px;
-    border-top: 1px solid #4d4c4c;
-    font-size: 13px;
-  }
-  footer .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  footer .left-colm a {
-    color: #cb9734;
-  }
-  footer .left-colm a:hover {
-    text-decoration: underline;
-  }
-  footer .middle-colm ul {
-    display: inline-flex;
-    align-items: center;
-    margin: 20px auto;
-  }
-  
-  footer .middle-colm li {
-    padding: 0 10px;
-    border-left: 1px solid #4d4c4c;
-  }
-  footer .middle-colm li:first-of-type {
-    border: none;
-  }
-  footer .middle-colm a:hover {
-    color: #fff;
-  }
-  footer .right-colm ul {
-    display: inline-flex;
-  }
-  
-  footer .right-colm a {
-    padding: 5px;
-  }
-  
-  footer #fb-icon i:hover {
-    color: #3b5998;
-  }
-  
-  footer #in-icon i:hover {
-    color: #0a66c2;
-  }
-  
-  footer #twt-icon i:hover {
-    color: #1da1f2;
-  }
-  
-  footer #ins-icon i:hover {
-    color: #ffdc7d;
-  }
-  
-  footer #pin-icon i:hover {
-    color: #bd081c;
-  }
-  
-  footer #yt-icon i:hover {
-    color: #ff0000;
-  }
-  
+/* booking css style end */
+.row2 .hotel-booking {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+}
+.row2 .booking-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  width: 250px;
+  height: 150px;
+  padding: 20px;
+}
+.row2 .booking-info input {
+  background: transparent;
+  outline: none;
+  border: none;
+  color: #000;
+  font: 30px "Playfair Display", serif;
+}
+.row2 #reservation a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: max-content;
+  width: 250px;
+  height: 150px;
+  color: #fff;
+  background-color: #cb9734;
+  font-weight: bold;
+  font-size: 14px;
+}
+.row2 #reservation a:hover {
+  background-color: #b89556;
+}
+/* booking css style end */
+/* online booking & app style start */
+.row4 {
+  background-image: url('/img/moblie\ background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 10% 3%;
+}
+.row4 .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  outline:  10px double #4d4c4c;
+  border:  3px solid #fff;
+}
+.row4 .container *{
+  margin: 20px;
+}
+.row4 .container span{
+  font-size: 20px;
+}
+.row4 .container p {
+  font-size: 21px;
+}
+.row4 .container h3{
+  font:bold 77px "Playfair Display", serif;
+  color: #e2c185;
+}
+.row4 .container a {
+  background-color: #e2c185;
+  color: #000;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+.row4 .container a:hover{
+  background-color: #fff;
+}
+.row4 .booking-headline {
+  margin:5%;
+  margin-bottom: 0;
+}
+.row4 .app-dl{
+  margin-bottom:5%;
+}
+
+/* online booking & app css style end */
+/* newsletter & useful links css style start */
+.row6 {
+  background-image: url("img/35.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #b3b3b3;
+  font-size: 14px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.row6 .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+.row6 .cloumn {
+  flex: 1;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+}
+.row6 .cloumn h3 {
+  display: inline-flex;
+  align-items: baseline;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.row6 .cloumn .arrow-shape {
+  width: 0;
+  height: 0;
+  border-left: 4px solid #cb9734;
+  border-bottom: 4px solid #cb9734;
+  border-top: 4px solid transparent;
+  border-right: 4px solid transparent;
+  margin-left: 8px;
+}
+.row6 .useful-links a {
+  display: inline-block;
+  width: 250px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #4d4c4c;
+}
+.row6 .useful-links li::before {
+  content: "• ";
+  color: #cb9734;
+  font-size: 25px;
+  border: none;
+}
+.row6 .useful-links li:last-of-type {
+  border: none;
+}
+.row6 .useful-links a:hover {
+  color: #e2c185;
+}
+.row6 .newletter-input {
+  display: inline-flex;
+  align-items: center;
+  margin: 35px;
+  margin-left: 0;
+  border: 1px solid #4d4c4c;
+  background-color: #4d4c4c;
+}
+.row6 .newletter-input input {
+  padding: 10px 0px 10px 5px;
+  border: none;
+  outline: none;
+  width: 83%;
+  background-color: #000;
+}
+.row6 .newletter-input a {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 17%;
+  height: 100%;
+  color: #000;
+}
+.row6 .newletter-input a:hover {
+  color: #fff;
+  background-color: #cb9734;
+}
+.row6 .cloumn span {
+  font-size: 12px;
+}
+.row6 .cloumn span > span {
+  color: #ffdc7d;
+}
+.row6 .cloumn .footer-img {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.row6 .cloumn .footer-img img {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #ffffff70;
+}
+.row6 .cloumn .footer-img a:hover {
+  background-color: #cb973475;
+  width: 80px;
+  height: 80px;
+  z-index: 3;
+}
+
+/* newsletter & useful links css style end */
+
+/* footer  css style start */
+footer {
+  color: #b3b3b3;
+  background: #000;
+  padding: 20px;
+  border-top: 1px solid #4d4c4c;
+  font-size: 13px;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .left-colm a {
+  color: #cb9734;
+}
+footer .left-colm a:hover {
+  text-decoration: underline;
+}
+footer .middle-colm ul {
+  display: inline-flex;
+  align-items: center;
+  margin: 20px auto;
+}
+
+footer .middle-colm li {
+  padding: 0 10px;
+  border-left: 1px solid #4d4c4c;
+}
+footer .middle-colm li:first-of-type {
+  border: none;
+}
+footer .middle-colm a:hover {
+  color: #fff;
+}
+footer .right-colm ul {
+  display: inline-flex;
+}
+
+footer .right-colm a {
+  padding: 5px;
+}
+
+footer #fb-icon i:hover {
+  color: #3b5998;
+}
+
+footer #in-icon i:hover {
+  color: #0a66c2;
+}
+
+footer #twt-icon i:hover {
+  color: #1da1f2;
+}
+
+footer #ins-icon i:hover {
+  color: #ffdc7d;
+}
+
+footer #pin-icon i:hover {
+  color: #bd081c;
+}
+
+footer #yt-icon i:hover {
+  color: #ff0000;
+}
