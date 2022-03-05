@@ -326,12 +326,11 @@ header {
 }
 header .top-header { /*  Top header css style */
   background-color: #0000008a;
-
-  font-size: 11px;
-  border-bottom: 1px solid #e2c18550;
+  font-size: 12px;
+  border-bottom: 1px solid #e2c18533;
 }
 header .top-header a {
-  padding: 5px 10px;
+  padding: 5px 15px;
 }
 header .top-header a:hover {
   color: #fff;
@@ -345,16 +344,21 @@ header .top-header .container {
 header .phonenumber-social-link {
   display: inline-flex;
   align-items: center;
-  font-size: 13px;
+  font-size: 12px;
+  margin-left: 30px;
+}
+header .phonenumber a {
+  padding-right: 40px;
 }
 header .social-links {
-  padding: 10px;
+  padding: 10px 25px;
   display: inline-flex;
-  border-left: 1px solid #e2c18550;
-  border-right: 1px solid #e2c18550;
+  border-left: 1px solid #e2c18533;
+  border-right: 1px solid #e2c18533;
 }
 header .social-links a {
-  padding: 5px;
+  padding: 8px;
+  font-size: 15px;
 }
 header .bottom-header { /* bottom  header css style  */
   background: transparent;
@@ -387,11 +391,9 @@ header nav ul li ul {
   left: 0;
   top: 130%;
   visibility: hidden;
-  opacity: 0;
-  transition-delay: 0.15s;
-  transition-property: all ;
-  transition-duration: 0.3s;
-  transition-timing-function:ease-out ;
+  transition-delay: 0.1s;
+  transition-property: opacity,visibility;
+  transition-duration: 0.2s;
 }
 header nav ul li ul li {
   width: 200px;
@@ -405,7 +407,6 @@ header nav li ul a {
 }
 header nav ul li:hover ul  {
   visibility: visible;
-  opacity: 1;
 }
 header nav ul li ul li:hover{
   background-color: #161616;
@@ -706,6 +707,7 @@ header  #reservation a:hover{
   width: 250px;
   padding-bottom: 5px;
   border-bottom: 1px solid #4d4c4c;
+  transition: ease-out 500ms 100ms;
 }
 .row15 .useful-links li::before {
   content: "• ";
@@ -713,8 +715,8 @@ header  #reservation a:hover{
   font-size: 25px;
   border: none;
 }
-.row15 .useful-links li:last-of-type {
-  border: none;
+.row15 .useful-links li:last-of-type a {
+  border-bottom: none;
 }
 .row15 .useful-links a:hover {
   color: #ffdc7d;
