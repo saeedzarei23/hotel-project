@@ -148,7 +148,7 @@ header .fixed-header {
   z-index: 100;
   position: fixed;
   width: 100%;
-  top:0;
+  top: 0;
   /* visibility: hidden; */
 }
 header .fixed-header .container {
@@ -169,6 +169,7 @@ header .fixed-header a:hover {
   background-image: url("img/client\ background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 /* main content css style end */
@@ -230,6 +231,44 @@ header .fixed-header a:hover {
   background-color: #b89556;
 }
 /* booking css style end */
+
+/* ROOMS css style START */
+.row3 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.row3 .bestrooms-title{
+  margin:10px auto 35px;
+}
+.row3 .bestrooms-title span {
+  font-size: 18px;
+}
+.row3 .bestrooms-title h3 {
+  font: 50px "Playfair Display", serif;
+  color: #cb9634;
+  margin: 10px auto 25px auto;
+}
+.row3 .room-contentBox{
+  display: flex;
+  background-color: #fff;
+  margin: 20px;
+}
+.row3 .room-pic{
+  position: relative;
+}
+.row3 .hover-links{
+  position:absolute;
+  top:50%;
+  left: 40%;
+  z-index: 10;
+  font-size: 40px;
+  color: #fff;
+}
+
+/* ROOMS css style end */
+
 /* online booking & app style start */
 .row4 {
   background-image: url("/img/moblie\ background.jpg");
