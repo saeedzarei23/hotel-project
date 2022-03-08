@@ -848,6 +848,9 @@ footer #yt-icon i:hover {
   background-color: #0000008a;
   padding: 40px;
   z-index: 9;
+  position: absolute;
+  top: 0;
+  width: 100%;
   
   
 }
@@ -893,6 +896,7 @@ margin-bottom: 40px;
   width: 100%;
   background-color: grey;
   z-index: 1;
+  position: relative;
 }
 .row14 iframe{
   width: 100%;
