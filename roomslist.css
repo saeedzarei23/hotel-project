@@ -242,8 +242,8 @@ header .fixed-header nav li ul a {
   justify-content: center;
   text-align: center;
 }
-.row3 .bestrooms-title{
-  margin:10px auto 35px;
+.row3 .bestrooms-title {
+  margin: 10px auto 35px;
 }
 .row3 .bestrooms-title span {
   font-size: 18px;
@@ -253,55 +253,65 @@ header .fixed-header nav li ul a {
   color: #cb9634;
   margin: 10px auto 25px auto;
 }
-.row3 .room-contentBox{
+.row3 .room-contentBox {
   display: flex;
   background-color: #fff;
   margin: 20px;
 }
-.row3 .room-pic{
+.row3 .room-pic {
   position: relative;
 }
-.row3 .room-pic img{
+.row3 .room-pic img {
   width: 790px;
   height: 100%;
 }
-.row3 .room-pic a  {
-  min-width: max-content;
-  z-index: 10;
+.row3 .room-page  a {
+min-width: max-content;
 }
 
-.row3 .hover-links{
-  position:absolute;
-  top:50%;
-  left: 40%;
-  z-index: 10;
+.row3 .hover-links {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-size: 40px;
   color: #fff;
+  opacity: 0;
+  background-color: #b89656a2;
+  transition: 500ms all ease-out;
 }
-.row3 .room-pic:hover .hover-links {
-
+.row3 .hover-links a {
+  margin: 15px;
+}
+.row3 .hover-links:hover {
+  opacity: 1;
+  visibility: visible;
 }
 .row3 .room-info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  padding:4% 2%;
+  padding: 4% 2%;
 }
-.row3 .room-info-text h5{
+.row3 .room-info-text h5 {
   font-size: 28px;
   margin: 10px;
   font-weight: 100;
   text-align: left;
   color: #4d4c4c;
 }
-.row3 .room-info-text p{
+.row3 .room-info-text p {
   font-size: 16px;
   margin: 30px 15px;
   text-align: left;
   color: #b3b3b3;
 }
-.row3 .room-info a{
+.row3 .room-info a {
   margin-left: 10px;
   font-size: 14px;
   font-weight: bold;
@@ -310,7 +320,7 @@ header .fixed-header nav li ul a {
   padding: 5px 11px;
   border-radius: 3px;
 }
-.row3 .room-info a:hover{
+.row3 .room-info a:hover {
   background-color: #cb9634;
   color: #fff;
 }

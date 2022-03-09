@@ -24,6 +24,8 @@
 .hotel-info {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .hotel-info h2 {
   color: #e2c285;
@@ -37,11 +39,12 @@
   font-size: 14px;
   text-align: center;
   line-height: 1.7;
+  width: 75%;
 }
 .hotel-info a {
   color: rgb(226, 194, 133);
   background: transparent;
-  padding: 3px 22px;
+  padding: 5px 22px;
   border: 0.5px solid rgb(226, 194, 133);
   font-size: 13px;
   font-weight: lighter;
@@ -52,7 +55,7 @@
   color: rgb(37,37,37);
 }
 .hotel-info-img img {
-  width: 506px;
+  width: 450px;
   height: 443px;
 }
 .hotel-info-img {
@@ -64,13 +67,15 @@
   justify-content: space-between;
   border-top: 0.5px solid #cb9734;
 }
+.hotel-info-top > div , .hotel-info-bouttom >div {
+  width: 450px;
+}
 .hotel-info-bouttom {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: 0.5px solid #cb9734;
 }
-
 .hotel-info-box h2 {
   text-align: center;
   margin-bottom: 30px;
@@ -99,31 +104,34 @@
 .row3 .container{
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding: 90px;
+}
+.award-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 .award-box h4{
   color: #ffffff;
   text-align: center;
-  margin-top: -80px;
+  font-size: 13px;
+  margin-top: 15px;
 }
 .award-box img{
-  position: relative;
-  top: 10px;
-}
-#last{
-  left: 30px;
-  position: relative;
+  position:absolute;
+  top:-15%;
 }
 .award-box h5{
   color: #e2c285;
-  text-align: center;
-  font-size: 28px;
-  margin-top: 10px;
+  font: 26px "Playfair Display";
+  margin-top: 30px;
 
 }
 .award-box p{
   color: #e2c285;
-  text-align: center;
   margin-top: 15px;
 }
 /* end of row 2 */
@@ -144,26 +152,26 @@
   align-items: center;
 }
 .property-box1{
-  background-image: url(img/19.jpg);
+  background-image: url(img/40-1.jpg);
   background-repeat: no-repeat;
-  width: 510px;
-  height: 500px;
+  width:450px;
+  height: 450px;
   background-size: cover;
   text-align: center;
   padding-top: 150px;
 }
 .property-box2{
-  background-image: url(img/40-1.jpg);
-  width: 510px;
-  height: 500px;
+  background-image: url('img/19.jpg');
+  width: 450px;
+  height: 450px;
   background-size: cover;
   text-align: center;
   padding-top: 150px;
 }
 .property-box3{
   background-image: url(img/20.jpg);
-  width: 510px;
-  height: 500px;
+  width: 450px;
+  height: 450px;
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -190,7 +198,8 @@
 }
 .row8-right p {
   color: #cdc7bd;
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: bold;
   line-height: 26px;
   text-align: center;
 }
@@ -222,7 +231,7 @@
   border: .5px solid rgb(226, 194, 133);
   color: rgb(226, 194, 133);
   background-color: transparent;
-  padding: 8px 30px;
+  padding: 10px 30px;
   transition-duration: .3s;
   font-size: 20px;
 }
@@ -267,8 +276,6 @@ align-items: center;
   flex-direction: column;
   padding-top: 90px;
 }
-
-
  .row9 .container{
   display: inline-flex;
   flex-direction: column;
@@ -284,18 +291,20 @@ align-items: center;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-top: 90px;
+  margin: 5% auto;
 }
 .geust-box img{
   width: 130px;
   border-radius: 50%;
 }
 .geust-box p{
-  color: #645e54;
-  font-size: 16px;
+  color: #727272;
+  font-size: 13px;
+  font-weight: 600;
   margin-top: 40px;
   text-align: center;
   line-height: 1.5;
+  width: 95%;
 }
 .geust-box h5{
   color: #ce9d40;
@@ -310,13 +319,13 @@ align-items: center;
   margin-top: 13px;
 }
 .geust-box span{
-  font-size: 200px;
+  font-size: 130px;
 color: #e2c285;
     text-align: center;
     font-family: Montserrat;
-    font-weight: 700;
+    font-weight:900;
     font-style: normal;
-    margin-top: -140px;
+    margin-top: -50px;
 }
 /* fatemeh code */
 /* header css style start */
@@ -334,6 +343,16 @@ header .top-header { /*  Top header css style */
 }
 header .top-header a {
   padding: 5px 10px;
+}
+header .top-header i {
+  color: #b3b3b3;
+}
+header .top-header .social-links{
+  margin: 0 10px;
+}
+header .top-header .social-links a{
+  padding: 5px 10px;
+  font-size: 16px;
 }
 header .top-header a:hover {
   color: #fff;
@@ -570,7 +589,7 @@ header  #reservation a:hover{
 .row10 * {
   text-align: center;
 }
-.row10 .container {
+.row10  {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -587,7 +606,7 @@ header  #reservation a:hover{
 .row10 .offer-box {
   display: flex;
   justify-content: space-evenly;
-  margin: 8%;
+  margin: 5%;
 }
 .row10 .offer-coulmen {
   position: relative;
@@ -604,7 +623,7 @@ header  #reservation a:hover{
   z-index: 5;
   position: absolute;
   top: -50px;
-  left: 100px;
+  left: 125px;
 }
 .row10 .room-pernight span:first-of-type {
   color: #e2c285;
@@ -624,7 +643,7 @@ header  #reservation a:hover{
   font-size: 30px;
   color: #e2c285;
   font-weight: 100;
-  padding: 21% 2%;
+  padding: 22% 2%;
 }
 .row10 .room-option {
   background-color: #282828;
@@ -632,7 +651,7 @@ header  #reservation a:hover{
 .row10 .room-option span {
   display: inline-block;
   font-size: 13px;
-  width:300px;
+  width:350px;
   padding: 35px 0;
 
 }
@@ -642,7 +661,7 @@ header  #reservation a:hover{
 }
 .row10 .room-book {
   background-color: #161616;
-  width: 300px;
+  width: 350px;
   height: 100px;
   display: flex;
   align-items: center;
@@ -788,9 +807,11 @@ footer .container {
   justify-content: space-between;
   align-items: center;
 }
+footer i {
+  color: #b3b3b3;
+}
 footer .left-colm a {
   color: #cb9734;
-  tra
 }
 footer .left-colm a:hover{
   text-decoration: underline;
@@ -930,19 +951,16 @@ margin-bottom: 40px;
 /* slider */
 .slider-room{
   display: flex;
-  flex-direction: ;
   overflow-x: auto;
   overscroll-behavior-inline: contain;
   gap: 1rem;
   padding-bottom: 20px;
-  
 }
 .media-elemant{
   position: relative;
 }
 .snap-scroll {
   scroll-snap-type: inline mandatory ;
-
 }
 .snap-scroll > *{
   scroll-snap-align: start;
@@ -970,8 +988,6 @@ transform: scale(1.5);
 }
 .media-elemant:hover> .contant{
   opacity: 1 ;
-  
-  
 }
 .room-item i {
   background-color: black;
@@ -980,7 +996,6 @@ transform: scale(1.5);
   border-radius: 50%;
   margin: 0px 5px 40px 5px;
   transition-duration: 300ms;
-  
 }
 .room-item i:hover{
   transform: scale(1.3);
