@@ -55,8 +55,8 @@
   color: rgb(37,37,37);
 }
 .hotel-info-img img {
-  width: 450px;
-  height: 443px;
+  /* width: 450px; */
+  /* height: 443px; */
 }
 .hotel-info-img {
   font-size: 0;
@@ -68,7 +68,7 @@
   border-top: 0.5px solid #cb9734;
 }
 .hotel-info-top > div , .hotel-info-bouttom >div {
-  width: 450px;
+  flex-grow: 1;
 }
 .hotel-info-bouttom {
   display: inline-flex;
@@ -93,7 +93,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 450px;
+  /* width: 450px; */
 }
 /* end of row 2 */
 /* start row 3 */
