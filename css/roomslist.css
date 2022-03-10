@@ -14,7 +14,7 @@
 }
 /* header css style start */
 header {
-  background-image: url(img/1.webp);
+  background-image: url(/img/1.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,12 +22,11 @@ header {
 header .top-header {
   /*  Top header css style */
   background-color: #0000008a;
-
-  font-size: 11px;
+  font-size: 12px;
   border-bottom: 1px solid #e2c18550;
 }
 header .top-header a {
-  padding: 5px 10px;
+  padding: 5px 15px;
 }
 header .top-header a:hover {
   color: #fff;
@@ -41,16 +40,18 @@ header .top-header .container {
 header .phonenumber-social-link {
   display: inline-flex;
   align-items: center;
-  font-size: 13px;
+  font-size: 12px;
+  margin-left: 30px;
 }
 header .social-links {
-  padding: 10px;
+  padding: 10px 25px;
   display: inline-flex;
-  border-left: 1px solid #e2c18550;
-  border-right: 1px solid #e2c18550;
+  border-left: 1px solid #e2c18533;
+  border-right: 1px solid #e2c18533;
 }
 header .social-links a {
-  padding: 5px;
+  padding: 8px;
+  font-size: 15px;
 }
 header .bottom-header {
   /* bottom  header css style  */
@@ -89,7 +90,6 @@ header nav ul li ul {
   transition-duration: 0.2s;
 }
 header nav ul li ul li {
-  width: 200px;
   padding: 5px 10px;
   border: 1px solid #cb963427;
   font-size: 12px;
@@ -97,6 +97,7 @@ header nav ul li ul li {
 }
 header nav li ul a {
   min-width: max-content;
+  width: 220px;
 }
 header nav ul li:hover ul {
   visibility: visible;
@@ -119,7 +120,7 @@ header .hotel-name {
 }
 
 header .hotel-name h2 {
-  font: bold 110px "Playfair Display", serif;
+  font: bold 140px "Playfair Display", serif;
 }
 
 header .links-thread {
@@ -149,7 +150,7 @@ header .fixed-header {
   position: fixed;
   width: 100%;
   top: 0;
-  /* visibility: hidden; */
+  visibility: hidden;
 }
 header .fixed-header .container {
   display: flex;
@@ -167,22 +168,21 @@ header .fixed-header a:hover {
 header .fixed-header nav li ul a {
   color: #fff;
 }
-/* main content css style end */
-#main-content {
-  background-image: url("img/client\ background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-/* main content css style end */
+/* main content css style start */
 
 /* booking css style end */
+.row2 {
+  background-image: url("/img/client\ background.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 10%;
+  padding-bottom:2%;
+}
 .row2 .hotel-booking {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10%;
+ 
 }
 .row2 .booking-wrapper {
   display: flex;
@@ -236,6 +236,13 @@ header .fixed-header nav li ul a {
 /* booking css style end */
 
 /* ROOMS css style START */
+.row3 {
+  background-image: url("/img/client\ background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 5%;
+}
 .row3 .container {
   display: flex;
   flex-direction: column;
@@ -375,7 +382,7 @@ min-width: max-content;
 /* online booking & app css style end */
 /* newsletter & useful links css style start */
 .row6 {
-  background-image: url("img/35.jpg");
+  background-image: url("/img/35.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -431,7 +438,7 @@ min-width: max-content;
   border: none;
 }
 .row6 .useful-links li:last-of-type {
-  border: none;
+  border-: none;
 }
 .row6 .useful-links a:hover {
   color: #e2c185;
