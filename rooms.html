@@ -22,7 +22,7 @@
         <div class="container">
           <div class="phonenumber-social-link">
             <div class="phonenumber">
-                <i class="fas fa-phone"></i>
+              <i class="fas fa-phone"></i>
               <a href="tel:+1 916-85-2235">+1 916-85-2235</a>
             </div>
             <div class="social-links">
@@ -51,7 +51,7 @@
           </div>
           <nav>
             <ul>
-              <li><a href="#">HOME</a></li>
+              <li><a href="index.html">HOME</a></li>
               <li><a href="#">ABOUT</a></li>
               <li>
                 <a href="#">ROOMS</a>
@@ -149,15 +149,30 @@
             <div class="booking-wrapper">
               <div class="booking-info">
                 <span>CHECK-IN</span>
-                <input type="DATE" value="2021-12-19" />
+                <div class="check-in-label">
+                  <input  class="CHECK-IN" type="DATE" value="2021-12-19" id="1"/>
+                  <label for="1">12/19/2021</label>
+                <label class="text" for="1"> <i class="fas fa-angle-down"> </i></label>
+                </div>
               </div>
               <div class="booking-info">
                 <span>CHECK-OUT</span>
-                <input type="DATE" value="2021-12-19" />
+                <input type="DATE" value="2021-12-20" />
+                <div class="check-in-label">
+                  <label for="1">12/20/2021</label>
+                <label class="text" for="1"> <i class="fas fa-angle-down"> </i></label>
+                </div>
               </div>
               <div class="booking-info">
                 <span>GUEST</span>
-                <input type="NUMBER" />
+                <!-- <input type="NUMBER" value="02" /> -->
+                <select id="guests" name="guests">
+                  <option value="02">02</option>
+                  <option value="04">04</option>
+                  <option value="06">06</option>
+                  <option value="08">08</option>
+                  <option value="10">10</option>
+                </select>
               </div>
               <div id="reservation">
                 <a href="#"> BOOK NOW</a>
@@ -174,17 +189,17 @@
             <h3>Best Room</h3>
             <img src="img/line2.png" alt="" />
           </div>
-          <div class="room-contentBox ">
+          <div class="room-contentBox">
             <div class="room-pic">
               <a href="#" class="room-page">
-                <img src="img/4-2-thegem-portfolio-1x.jpg" alt=""/>
+                <img src="img/4-2-thegem-portfolio-1x.jpg" alt="" />
               </a>
-                <div class="hover-links">
-                  <a href="#"><i class="fas fa-file-alt"></i></a>
-                  <a href="#"><i class="fas fa-link"></i></a>
-                  <a href="#"><i class="fas fa-camera"></i></a>
-                  <a href="#"><i class="fas fa-clapperboard"></i></a>
-                </div>
+              <div class="hover-links">
+                <a href="#"><i class="fas fa-file-alt"></i></a>
+                <a href="#"><i class="fas fa-link"></i></a>
+                <a href="#"><i class="fas fa-camera"></i></a>
+                <a href="#"><i class="fas fa-clapperboard"></i></a>
+              </div>
             </div>
             <div class="room-info">
               <div class="room-info-text">
@@ -201,10 +216,10 @@
             <div class="room-info">
               <div class="room-info-text">
                 <h5>Royal Suite Room</h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
               </div>
               <a href="#">DETAILS</a>
             </div>

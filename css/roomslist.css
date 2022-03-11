@@ -198,20 +198,43 @@ header .fixed-header nav li ul a {
   width: 300px;
   height: 180px;
   padding: 20px;
+  position: relative;
 }
 .row2 .booking-info input {
   background: transparent;
   outline: none;
   border: none;
-  color: #000;
+  color: rebeccapurple;
   font: 30px "Playfair Display", serif;
   border-right: 1px solid#b3b3b38a;
   padding-right: 20px;
   padding-top: 15px;
+  position: absolute;
+  left: 10px;
+  opacity: 0;
+  z-index: 5;
+}
+.row2 #guests {
+  font: 30px "Playfair Display", serif;
+  outline: none;
+  border: none;
+}
+.row2 #guests option{
+  font: 14px Montserrat ;
 }
 .row2 .booking-info span {
-  border-right: 1px solid#b3b3b38a;
-  padding-right: 20px;
+  width: 250px;
+}
+.row2 .check-in-label{
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+padding-top: 10px;
+border-right: 1px solid#b3b3b38a;
+padding-right: 20px;
+}
+.row2 .check-in-label label:first-of-type{
+  font: 30px "Playfair Display", serif;
 }
 .row2 .hotel-booking div:nth-last-of-type(2) input,
 .row2 .hotel-booking div:nth-last-of-type(2) span {
@@ -437,8 +460,8 @@ min-width: max-content;
   font-size: 25px;
   border: none;
 }
-.row6 .useful-links li:last-of-type {
-  border-: none;
+.row6 .useful-links li:last-of-type a {
+  border: none;
 }
 .row6 .useful-links a:hover {
   color: #e2c185;
