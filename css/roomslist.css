@@ -403,6 +403,60 @@ min-width: max-content;
 }
 
 /* online booking & app css style end */
+/* map css style start */
+.row5  {
+  position: relative;
+}
+.row5 .contact-box{
+  background-color: #000000b0;
+  padding: 40px;
+position: absolute;
+top:0;
+z-index: 5;
+}
+.row5 .contact-us {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4%;
+  
+}
+.row5 .contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 450px;
+}
+.row5 .contact-info-icon span {
+  color: #e2c185;
+  font-size: 20px;
+  margin-left: 20px;;
+}
+.row5 .contact-info-icon i {
+  padding: 18px;
+  border-radius: 50%;
+  background-color: #e2c185;
+  margin-left: -30px;
+}
+.row5 .contact-info-text{
+  color: #fff;
+  margin-left: 40px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+.row5 .contact-info-text  p{
+  width:70%;
+}
+.row5 .google-map iframe{
+width: 100%;
+height: 600px;
+filter: grayscale(100%);
+}
+/* map css style end */
 /* newsletter & useful links css style start */
 .row6 {
   background-image: url("/img/35.jpg");
