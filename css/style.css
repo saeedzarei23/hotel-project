@@ -473,8 +473,8 @@ header .booking-info {
   padding: 20px;
   position: relative;
 }
- .check-in-label {
-  display:flex;
+.check-in-label {
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px;
@@ -486,7 +486,7 @@ header .booking-info {
 .check-in-label label:last-of-type {
   right: 20px;
 }
- .check-in-label label:first-of-type {
+.check-in-label label:first-of-type {
   font: 30px "Playfair Display", serif;
   color: #e2c285;
 }
@@ -711,6 +711,40 @@ header #reservation a:hover {
   background-color: #cb9734;
 }
 /* Special offers css style end */
+
+/* video tour of hotel  css style start*/
+.row12 {
+  position: relative;
+}
+.row12 .video-title {
+  background-color: #00000080;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.row12 .video-title span {
+  color: #fff;
+  font: 20px "Playfair Display", serif;
+}
+.row12 h4 {
+  font: 50px "Playfair Display", serif;
+  color: #e2c285;
+  margin-bottom: 10px;
+}
+/* .row12 img {
+  width: 125px;
+} */
+.row12 video {
+  width: 100%;
+  height: 100%;
+}
+/* video tour of hotel  css style end*/
 
 /* newsletter & useful links css style start */
 .row15 {
