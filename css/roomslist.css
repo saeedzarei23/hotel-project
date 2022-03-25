@@ -295,32 +295,40 @@ padding-right: 20px;
   width: 790px;
   height: 100%;
 }
-.row3 .room-page  a {
-min-width: max-content;
+.row3 .room-page a {
+  min-width: max-content;
 }
 
 .row3 .hover-links {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  top: 50%;
+  left: 260px;
+  visibility: hidden;
   font-size: 40px;
   color: #fff;
-  opacity: 0;
-  background-color: #b89656a2;
   transition: 500ms all ease-out;
 }
+
 .row3 .hover-links a {
   margin: 15px;
 }
-.row3 .hover-links:hover {
-  opacity: 1;
+
+.row3 .room-pic:hover .hover-links {
   visibility: visible;
+  animation-name: hover-links;
+  animation-duration: 800ms;
+  animation-timing-function: ease-out;
 }
+
+@keyframes hover-links {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 49%;
+  }
+}
+
 .row3 .room-info {
   display: flex;
   flex-direction: column;
@@ -355,6 +363,7 @@ min-width: max-content;
   color: #fff;
 }
 /* ROOMS css style end */
+
 
 /* online booking & app style start */
 .row4 {
