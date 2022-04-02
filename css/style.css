@@ -416,6 +416,7 @@ header nav ul li ul {
   left: 0;
   top: 130%;
   visibility: hidden;
+  opacity: 0;
   transition-delay: 0.16s;
   transition-property: opacity, visibility;
   transition-duration: 0.2s;
@@ -432,10 +433,22 @@ header nav li ul a {
 }
 header nav ul li:hover ul {
   visibility: visible;
+  opacity: 1;
+  animation-name: subMenu;
+  animation-duration:800ms;
+  animation-timing-function: linear;
 }
 header nav ul li ul li:hover {
   background-color: #161616;
 }
+@keyframes subMenu {
+  from {
+   transform: translateY(50px);
+  }
+  to {
+   transform: translateY(0);
+   }
+ }
 header .row1 .container {
   /* row1 css style start */
   display: flex;
