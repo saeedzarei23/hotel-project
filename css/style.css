@@ -394,12 +394,15 @@ header .bottom-header .container {
   justify-content: space-between;
 }
 header .bottom-header a {
-  padding: 10px;
+  padding: 10px 15px;
   font-size: 14px;
   font-weight: bold;
   color: #fff;
 }
 header .bottom-header a:hover {
+  color: #cb9734;
+}
+header .current a {
   color: #cb9734;
 }
 header nav ul li {
@@ -422,14 +425,14 @@ header nav ul li ul {
   transition-duration: 0.2s;
 }
 header nav ul li ul li {
-  padding: 5px 15px;
+  padding: 5px;
   border: 1px solid #cb963427;
   font-size: 12px;
   margin: 0;
 }
 header nav li ul a {
   min-width: max-content;
-  width: 220px;
+  width: 250px;
 }
 header nav ul li:hover ul {
   visibility: visible;
